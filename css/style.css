@@ -65,6 +65,7 @@ display: inline-block;
    	position: absolute;
    	top:870px;
    	left: 500px;
+   	font-family: 'Roboto', sans-serif;
 }
 .sobre-mim block{
 	width: 150px;
