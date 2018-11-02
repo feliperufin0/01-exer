@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+/* início do menu */
+.menu{
+	width: 100%;
+	height: 45px;
+	background-color:white;
+	position: fixed;
+	z-index: 1000	
+}
+.menu ul li{
+display: inline-block;	
+}
+.menu  a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	color:black;
+	padding: 6px;
+	border-radius: 3px;	
+	font-family: 'Oswald', sans-serif;
+}
+
+.menu a:hover{
+	color: #fffd6a;
+	background: #383837;
+	padding: 9px;
+	transition: color,
+	background,
+	 1s;
+}
+.menu nav{
+	position: absolute;
+	top:10px;
+	right: 25px;
+}
+.logo{
+	position: absolute;
+	top:8px;
+	left: 50px;
+	font-family: 'Lobster', cursive;
+	font-size: 23px;
+}
+/* fim do menu */
+}
+.principal{
+	width: 100%;
+	height: auto;
+}
+.banner img{
+	width:100%;
+	height:550px;
+
+}
+.foto img{
+	width:250px;
+	height:250px;
+	position: absolute;
+	left: 150px;
+	top:750px;
+}
+.sobre-mim p {
+   	position: absolute;
+   	top:870px;
+   	left: 500px;
+}
+.sobre-mim block{
+	width: 150px;
+	height: 35px;
+	background: red;
+	border-radius: 10px;
+	color: white;
+	position: absolute;
+	top:800px;
+   	left: 500px;
+   	text-align: center;
+   	padding-top: 8px;
+   	text-transform: uppercase;
+   	font-family: 'Oswald', sans-serif;
+}
+block:hover{
+	background: #383837;
+	transition: background 1s;
+}
+.Especialidades img{
+	width:900px ;
+	height:700px ;
+	position: absolute;
+	top: 1000px;
+	right: 70px;
+}
+.Hobbies img{
+	width:900px ;
+	height:700px ;
+	position: absolute;
+	top: 1480px;
+	left: 70px;
+}
+/*fim principal*/
+.rodape{
+	width: 100%;
+	height: auto;
+	margin-bottom: 250px;
+}
+.face img{
+	position: absolute;
+    top:545px;
+    right: 85px;
+   	width: 60px;
+   	height: 50px;
+    
+}
+.insta img{
+position: absolute;
+    top:595px;
+    right: 85px;
+    width: 60px;
+   	height: 50px;
+
+}
+.barra img{
+position: absolute;
+top:540px;
+right: 20px;
+}
+}
